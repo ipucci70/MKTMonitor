@@ -9,11 +9,11 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class TXMonitor {
+public class MKTMonitor {
     // Create a metric to track transaction duration times
     private static boolean initialized;
     private static HTTPServer server;
-    private static final Logger LOG = LogManager.getLogger(TXMonitor.class);
+    private static final Logger LOG = LogManager.getLogger(MKTMonitor.class);
 
     private static final Histogram transactionDuration = Histogram.build()
             .name("transaction_duration_milliseconds")
