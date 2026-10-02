@@ -1,0 +1,1 @@
+A simple (and rude) library that help my set of applications to interface with prometheus to publish statistics like running status or transactions duration
